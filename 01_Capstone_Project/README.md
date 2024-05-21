@@ -1,9 +1,12 @@
-<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/01_Capstone_Project/images/proj_logo.png?raw=true" style="float: left; margin: 10px; height: 105px">  
+<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/01_Capstone_Project/images/proj_logo.png?raw=true" style="float: left; margin: 10px; height: 125px">  
 
-<h1>Capstone Project - Detecting Microsatellite Instability (MSI) in Colorectal Cancer Tissues</h1>
+<h1 style="font-family: Inter, sans-serif; color: #3366cc;"><strong>Capstone Project</strong><br>
+Detecting Microsatellite Instability (MSI) in Colorectal Cancer Tissues</h1>
 
-> Author: Suen Si Min <br>
-> Course: DSI-SG-42
+<div style="text-align: right;">
+<h3>Author : Suen Si Min<br>
+Course : DSI-SG-42</h3></div>
+
 ---
 
 ## **Overview:** <br>

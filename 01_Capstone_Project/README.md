@@ -1,5 +1,5 @@
-<img src="https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png" style="float: left; margin: 20px; padding: 20px;">
-<br><br>
+<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/01_Capstone_Project/images/proj_logo.jpeg?raw=true" style="float: left; margin: 10px; height: 105px">  
+
 <h1>Capstone Project - Detecting Microsatellite Instability (MSI) in Colorectal Cancer Tissues</h1>
 
 > Author: Suen Si Min <br>

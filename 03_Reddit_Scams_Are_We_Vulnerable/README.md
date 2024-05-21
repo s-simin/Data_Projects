@@ -1,7 +1,6 @@
 <img src="https://github.com/s-simin/Data_Science_Projects/blob/main/03_Reddit_Scams_Are_We_Vulnerable/images/proj_logo.jpeg?raw=true" style="float: left; margin: 10px; height: 105px">  
 
 # DSI-SG-42 Project 3: Web APIs & NLP
-
 ## Reddit Scams: Are We Vulnerable?
 
 ---

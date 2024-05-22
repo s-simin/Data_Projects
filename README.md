@@ -39,4 +39,4 @@ This repository showcases my proficiency in data science and data analysis, high
 
 Suen Si Min
 
-[My LinkedIn](linkedin.com/in/si-min-suen)
+[My LinkedIn](https://www.linkedin.com/in/si-min-suen)

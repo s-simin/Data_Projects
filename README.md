@@ -1,3 +1,5 @@
+<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/01_Capstone_Project/images/proj_logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;"> 
+
 # Data Science & Data Analysis Portfolio - Suen Si Min
 
 This repository showcases my proficiency in data science and data analysis, highlighting projects that span healthcare, deep learning, social analysis, scam detection, and price prediction.

@@ -2,7 +2,7 @@
 
 <h1 style="font-family: Segoe UI; color: black; line-height: 1.3;"><strong>Project 2</strong><br>
 Singapore Housing Data and Kaggle Challenge</h1>  
-<br><br><br><br>
+
 <div style="text-align: left;">
 <h3>Authors : Suen Si Min, Ngan Han Kiong, Michael King Sutanto, Irfan Muzafar<br>
 Course : DSI-SG-42</h3></div>

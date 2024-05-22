@@ -1,10 +1,12 @@
-<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/01_Capstone_Project/images/proj_logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;"> 
+<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/images/Picture1.jpg?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;"> 
 
-# Data Science & Data Analysis Portfolio - Suen Si Min
+<h1 style="font-family: Segoe UI; color: #133DEE; line-height: 1.6;">Data Science & Data Analysis Portfolio - Suen Si Min</h1>
 
 This repository showcases my proficiency in data science and data analysis, highlighting projects that span healthcare, deep learning, social analysis, scam detection, and price prediction.
 
-## Projects
+---
+
+<h2 style="font-family: Segoe UI; color: #133DEE;">Projects</h2>
 
 ### 1. Capstone Project : Detecting Microsatellite Instability (MSI) in Colorectal Cancer Tissues
 
@@ -26,18 +28,18 @@ This repository showcases my proficiency in data science and data analysis, high
 * **Overview:** Developed a model to differentiate between stroke, mild stroke, and no stroke based on medical data.
 * **Key Skills:** Classification algorithms, model tuning, performance evaluation, and handling imbalanced datasets.
 
-## Technical Expertise
+<h2 style="font-family: Segoe UI; color: #133DEE;">Technical Expertise</h2>
 
 * **Languages:** Python
 * **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow/Keras
 * **Tools:** Jupyter Notebooks, Git, Kaggle, Tableau, PowerBI
 
-## Notes
+<h2 style="font-family: Segoe UI; color: #133DEE;">Notes</h2>
 
 * Each project folder contains detailed README files, codes, and other relevant documentation.
 * I am keen to collaborate and discuss on data analysis or data science projects. Feel free to reach out!
 
-## Keep In Touch
+<h2 style="font-family: Segoe UI; color: #133DEE;">Keep In Touch</h2>
 
 Suen Si Min
 

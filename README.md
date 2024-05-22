@@ -6,7 +6,7 @@ This repository showcases my proficiency in data science and data analysis, high
 
 ---
 
-<br><h2 style="font-family: Segoe UI; color: #133DEE;">Projects</h2>
+<h2 style="font-family: Segoe UI; color: #133DEE;">Projects</h2>
 
 ### 1. Capstone Project : Detecting Microsatellite Instability (MSI) in Colorectal Cancer Tissues
 

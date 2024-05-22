@@ -1,8 +1,7 @@
-<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/02_Singapore_Housing_Data_and_Kaggle_Challenge/images/proj_logo.png?raw=true" style="float: left; margin: 10px; height: 155px">  
+<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/02_Singapore_Housing_Data_and_Kaggle_Challenge/images/proj_logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;">  
 
 <h1 style="font-family: Segoe UI; color: black; line-height: 1.3;"><strong>Project 2</strong><br>
-Singapore Housing Data and Kaggle Challenge</h1>  
-
+Singapore Housing Data and Kaggle Challenge</h1>
 <div style="text-align: left;">
 <h3>Authors : Suen Si Min, Ngan Han Kiong, Michael King Sutanto, Irfan Muzafar<br>
 Course : DSI-SG-42</h3></div>

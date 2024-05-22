@@ -1,7 +1,10 @@
-<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/03_Reddit_Scams_Are_We_Vulnerable/images/proj_logo.jpeg?raw=true" style="float: left; margin: 10px; height: 105px">  
+<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/03_Reddit_Scams_Are_We_Vulnerable/images/proj_logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;">  
 
-# DSI-SG-42 Project 3: Web APIs & NLP
-## Reddit Scams: Are We Vulnerable?
+<h1 style="font-family: Segoe UI; color: black; line-height: 1.3;"><strong>Project 3</strong><br>
+Reddit Scams: Are We Vulnerable?</h1>  
+<div style="text-align: left;">
+<h4>Authors : Jayme Zhang, Suen Si Min, Timothy Chan, Amoz Kuang<br>
+Course : DSI-SG-42</h4></div>
 
 ---
 

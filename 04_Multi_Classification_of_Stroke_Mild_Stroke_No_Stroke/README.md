@@ -1,4 +1,4 @@
-<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/04_Multi_Classification_of_Stroke_Mild_Stroke_No_Stroke/images/proj_logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;">  
+<img src="https://github.com/s-simin/images/blob/main/stroke_logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;">  
 
 <h1 style="font-family: Segoe UI; color: black; line-height: 1.3;"><strong>Project 4</strong><br>
 Multi-Classification of Stroke, Mild Stroke and No Stroke</h1>

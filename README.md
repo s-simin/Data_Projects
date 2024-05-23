@@ -1,4 +1,4 @@
-<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/images/Picture1.jpg?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;"> 
+<img src="https://github.com/s-simin/images/blob/main/project_summary_logo.jpg?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;"> 
 
 <h1 style="font-family: Segoe UI; color: #133DEE; line-height: 1.6;">Data Science & Data Analysis Portfolio - Suen Si Min</h1>
 

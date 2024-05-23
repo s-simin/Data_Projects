@@ -1,4 +1,4 @@
-<img src="https://github.com/s-simin/Data_Science_Projects/blob/main/01_Capstone_Project/images/logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;">  
+<img src="https://github.com/s-simin/Data_Projects/blob/main/01_Capstone_Project/images/logo.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;">  
 
 <h1 style="font-family: Segoe UI; color: #3366cc; line-height: 1.3;"><strong>Capstone Project</strong><br>
 Detecting Microsatellite Instability (MSI) in Colorectal Cancer Tissues</h1>

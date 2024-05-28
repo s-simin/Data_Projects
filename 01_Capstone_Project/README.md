@@ -18,6 +18,12 @@ The project utilized publicly available data from The Cancer Genome Atlas (TCGA)
 How might we develop a deep learning model that accurately classifies colorectal cancer tissues as microsatellite stable (MSS) or microsatellite instable (MSI) based on histopathological image data, 
 to screen patient suitability for immunotherapy treatment?
 
+## **Final Product, A User-Friendly Application:** <br>
+Here is a video demonstration of the project:
+
+<iframe width="560" height="315" src="https://github.com/s-simin/Data_Projects/raw/main/streamlit/Capstone_Project/MSI_Streamlit_v1.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## **Python Version and Libraries:** <br>
 - tensorflow
 - keras

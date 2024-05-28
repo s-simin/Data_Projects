@@ -19,9 +19,9 @@ How might we develop a deep learning model that accurately classifies colorectal
 to screen patient suitability for immunotherapy treatment?
 
 ## **Final Product, A User-Friendly Application:** <br>
-Here is a video demonstration of the project:
+Here is a short clip of the experience:
 
-<iframe width="560" height="315" src="https://github.com/s-simin/Data_Projects/raw/main/streamlit/Capstone_Project/MSI_Streamlit_v1.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://github.com/s-simin/Data_Projects/raw/main/streamlit/Capstone_Project/MSI_Streamlit_v1.mp4
 
 
 ## **Python Version and Libraries:** <br>

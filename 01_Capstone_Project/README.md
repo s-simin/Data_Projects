@@ -21,8 +21,7 @@ to screen patient suitability for immunotherapy treatment?
 ## **Final Product, A User-Friendly Application:** <br>
 Here is a short clip of the experience:
 
-https://github.com/s-simin/Data_Projects/raw/main/streamlit/Capstone_Project/MSI_Streamlit_v1.mp4
-
+https://github.com/s-simin/Data_Projects/assets/159276209/dc266da6-dc36-4f18-b60f-e2e6c2d7dd02
 
 ## **Python Version and Libraries:** <br>
 - tensorflow

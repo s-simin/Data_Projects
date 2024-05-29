@@ -18,6 +18,11 @@ In this project, our primary aim is to construct a robust classification model t
 
 *How Might We Assist Reddit Moderators to Differentiate Online Scams from Legitimate Acts of Kindness within Reddit Posts using a Sensitive & Accurate Natural Language Processing Model*
 
+## **Final Product, A User-Friendly Application:** <br>
+Here is a short clip of the experience:
+
+https://github.com/s-simin/Data_Projects/assets/159276209/a67adfb4-f091-4404-b7b4-e5b4582fb41c
+
 ## Datasets
 
 ### Data Collection

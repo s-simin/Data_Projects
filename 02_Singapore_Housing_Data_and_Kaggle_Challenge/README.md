@@ -68,7 +68,7 @@ Our methodology is as follows:
     3. Generate plots
 3. Feature Engineering and Modelling
     1. Feature Review and Creation
-    2. Hot End Encoding and Scaling
+    2. One-hot-encoding and Scaling
     3. Modelling using Linear Regression, Lasso Regression and Ridge Regression
     4. Regression using StatsModel
     5. Hyperparameter Tuning (Ridge Model)

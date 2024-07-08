@@ -31,6 +31,11 @@ This repository showcases my proficiency in data science and data analysis, high
     * Handled imbalanced data, explored feature correlations, data transformations
     * Multiple algorithms: Decision Tree, Bagging, Random Forest, AdaBoost, Support Vector, Gradient Boosting, KMeans, hierarchical clustering, DBScan
 
+### 5. Emergency Department (ED) Attendance Analysis
+
+* **Overview:** Analysed ED attendance of SGH to provide insights for manpower resource planning.
+
+* **Key Skills:** Exploratory data analysis (EDA), statistical analysis, data visualisation with **Tableau**
 
 
 <br><h2 style="font-family: Segoe UI; color: #133DEE;">Technical Expertise</h2>

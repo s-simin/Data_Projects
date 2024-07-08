@@ -1,0 +1,870 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='daily_ED_Attendances_by_Hospital_2023' inline='true' name='federated.045mu8t1pnhwlf1c59m7d1vum5mj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='daily_ED_Attendances_by_Hospital_2023' name='textscan.08jt1sf0pjy44310x5uka01l0w6q'>
+            <connection class='textscan' directory='C:/Users/Shecey/Documents/GitHub/s-simin/Data_Projects/05_ED_Attendances/data' filename='daily_ED_Attendances_by_Hospital_2023.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08jt1sf0pjy44310x5uka01l0w6q' name='daily_ED_Attendances_by_Hospital_2023.csv' table='[daily_ED_Attendances_by_Hospital_2023#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='integer' name='AH' ordinal='2' />
+            <column datatype='integer' name='CGH' ordinal='3' />
+            <column datatype='integer' name='KTPH' ordinal='4' />
+            <column datatype='integer' name='NTFGH' ordinal='5' />
+            <column datatype='integer' name='NUH(A)' ordinal='6' />
+            <column datatype='integer' name='SGH' ordinal='7' />
+            <column datatype='integer' name='SKH' ordinal='8' />
+            <column datatype='integer' name='TTSH' ordinal='9' />
+            <column datatype='integer' name='Year' ordinal='10' />
+            <column datatype='integer' name='Month' ordinal='11' />
+            <column datatype='string' name='DayOfWeek' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.08jt1sf0pjy44310x5uka01l0w6q' name='daily_ED_Attendances_by_Hospital_2023.csv' table='[daily_ED_Attendances_by_Hospital_2023#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='integer' name='AH' ordinal='2' />
+            <column datatype='integer' name='CGH' ordinal='3' />
+            <column datatype='integer' name='KTPH' ordinal='4' />
+            <column datatype='integer' name='NTFGH' ordinal='5' />
+            <column datatype='integer' name='NUH(A)' ordinal='6' />
+            <column datatype='integer' name='SGH' ordinal='7' />
+            <column datatype='integer' name='SKH' ordinal='8' />
+            <column datatype='integer' name='TTSH' ordinal='9' />
+            <column datatype='integer' name='Year' ordinal='10' />
+            <column datatype='integer' name='Month' ordinal='11' />
+            <column datatype='string' name='DayOfWeek' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AH]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>AH</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CGH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CGH]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>CGH</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KTPH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KTPH]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>KTPH</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NTFGH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NTFGH]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>NTFGH</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUH(A)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NUH(A)]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>NUH(A)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SGH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SGH]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>SGH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SKH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SKH]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>SKH</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TTSH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TTSH]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>TTSH</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DayOfWeek</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DayOfWeek]</local-name>
+            <parent-name>[daily_ED_Attendances_by_Hospital_2023.csv]</parent-name>
+            <remote-alias>DayOfWeek</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+      <column caption='Day Of Week' datatype='string' name='[DayOfWeek]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column aggregation='Count' datatype='integer' name='[SGH]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='daily_ED_Attendances_by_Hospital_2023.csv' datatype='table' name='[__tableau_internal_object_id__].[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]' role='measure' type='quantitative' />
+      <column-instance column='[Date]' derivation='None' name='[none:Date:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Shecey/AppData/Local/Temp/TableauTemp/#TableauTemp_19kx5591ny2xyn15410mb107ie5r.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/12/2024 09:01:19 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>365</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>365</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AH</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AH</remote-alias>
+              <ordinal>2</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CGH</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CGH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CGH</remote-alias>
+              <ordinal>3</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>145</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>KTPH</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[KTPH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>KTPH</remote-alias>
+              <ordinal>4</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>141</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NTFGH</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NTFGH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NTFGH</remote-alias>
+              <ordinal>5</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>138</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NUH(A)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NUH(A)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NUH(A)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>139</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SGH</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SGH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SGH</remote-alias>
+              <ordinal>7</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>131</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SKH</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SKH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SKH</remote-alias>
+              <ordinal>8</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TTSH</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TTSH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TTSH</remote-alias>
+              <ordinal>9</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>10</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>11</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DayOfWeek</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[DayOfWeek]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DayOfWeek</remote-alias>
+              <ordinal>12</ordinal>
+              <family>daily_ED_Attendances_by_Hospital_2023.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Singapore&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <natural-sort column='[none:Date:ok]' direction='ASC' />
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='daily_ED_Attendances_by_Hospital_2023.csv' id='daily_ED_Attendances_by_Hospital_2023.csv_F7CC87804B5C4F9BB3E1CBBCA1F1D902'>
+            <properties context=''>
+              <relation connection='textscan.08jt1sf0pjy44310x5uka01l0w6q' name='daily_ED_Attendances_by_Hospital_2023.csv' table='[daily_ED_Attendances_by_Hospital_2023#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='integer' name='AH' ordinal='2' />
+                  <column datatype='integer' name='CGH' ordinal='3' />
+                  <column datatype='integer' name='KTPH' ordinal='4' />
+                  <column datatype='integer' name='NTFGH' ordinal='5' />
+                  <column datatype='integer' name='NUH(A)' ordinal='6' />
+                  <column datatype='integer' name='SGH' ordinal='7' />
+                  <column datatype='integer' name='SKH' ordinal='8' />
+                  <column datatype='integer' name='TTSH' ordinal='9' />
+                  <column datatype='integer' name='Year' ordinal='10' />
+                  <column datatype='integer' name='Month' ordinal='11' />
+                  <column datatype='string' name='DayOfWeek' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_ED_Attendances_by_Hospital_2023' name='federated.045mu8t1pnhwlf1c59m7d1vum5mj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.045mu8t1pnhwlf1c59m7d1vum5mj'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column aggregation='Count' datatype='integer' name='[SGH]' role='measure' type='quantitative' />
+            <column-instance column='[SGH]' derivation='Sum' name='[sum:SGH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[tdy:Date:qk]' field-type='quantitative' max='#2023-12-31 00:00:00#' min='#2023-01-01 00:00:00#' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[sum:SGH:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='20' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3293370008468628' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='selection' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[sum:SGH:qk]</rows>
+        <cols>[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[tdy:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{6CBD185B-FC4B-405D-82EC-03AE77409C25}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[tdy:Date:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[sum:SGH:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[sum:SGH:qk]</field>
+                  <field>[federated.045mu8t1pnhwlf1c59m7d1vum5mj].[tdy:Date:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>208</value>
+                <value>#2023-01-22 00:00:00#</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{037E9D71-33F0-46E0-811B-4E6EF52BB54B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

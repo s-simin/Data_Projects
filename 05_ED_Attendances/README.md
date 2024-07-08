@@ -1,9 +1,9 @@
 <img src="https://github.com/s-simin/images/blob/main/healthcare_SG.png?raw=true" style="float: left; margin: 0px 20px 0px 0px; height: 155px;">  
 
-# A Preliminary Analysis
-## Manpower Resource Planning for SGH Emergency Department
-
-### Author: Suen Si Min
+<h1 style="font-family: Segoe UI; color: black; line-height: 1.3;"><strong>A Preliminary Analysis</strong><br>
+Manpower Resource Planning for SGH Emergency Department</h1>
+<div style="text-align: left;">
+<h3>Author : Suen Si Min</h3></div>
 
 ---
 
